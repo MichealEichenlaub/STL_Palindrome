@@ -1,4 +1,4 @@
-// Quick practice program that checks to see if a word is a
+//Quick practice program that checks to see if a word is a
 // palindrome (reads the same foward and back) uses STL
 // queue and stack
 
@@ -13,6 +13,9 @@ bool palCheck(const string toCheck);
 
 
 int main(){
+
+    stack<char> pals;
+    queue<char> palq;
 
 
     string palstring = "kayak"; // kayak should return true
@@ -32,7 +35,7 @@ int main(){
 
 
 //-----------------------------------------------------------------------------
-// Checks for whether or not a word is a palindrome by popping the top of the 
+// Checks for whether or not a world is a palindrome by popping the top of the 
 // stack and comparing it to the front of the queue. 
 // if they are equal, return true. If they are not, return false. 
 bool palCheck( const string toCheck){
