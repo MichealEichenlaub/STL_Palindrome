@@ -21,7 +21,7 @@ int main(){
     palstring = "Seattle";      // Seattle should return false
     palCheck(palstring);
 
-    palstring = "bob";          // Bob should return false
+    palstring = "bob";          // Bob should return true
     palCheck(palstring);
  
 
